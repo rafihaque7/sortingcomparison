@@ -1,0 +1,34 @@
+bv.h            For bitvector implementation. This file was provided by Darrell Long
+minSort.c       Code provided by Darrell Long, it has minSort method
+minSort.h       Declaration for minSort
+bubbleSort.c    Code provided by Darrell Long, it has the method for bubbleSort method
+bubbleSort.h    Declaration for bubbleSort
+insertionSort.c The psuedo code was given by Long. It does insertionSort
+insertionSort.h Declares insertionSort methods
+quickSort.c     quicksort is one of the fastest sorting method. I got help from YouTube
+quickSort.h     declares quickSort
+mergeSort.c     See the cite inside mergeSort.c, this is also one of the fastest way of sorting
+mergeSort.h     declares methods for mergeSort
+
+sorting.c       The main function is located here, as well as many important methods at the end of the file
+sorting.h       Declares the methods
+README          Instructions
+Makefile        To compile the program
+
+What does this program do?
+You can sort numbers with this method, and see the comparison between different sorting method.
+
+How do I use it?
+type 'make' or 'make all' to compile the program. Type make clean to remove the objects and program files
+
+ex-  ./sorting -q       will sort numbers using quickSort
+
+All the flags
+From the pdf
+-A means employ all sorting algorithms. • -m means enable minSort.
+-b means enable bubbleSort.
+-i means enable insertionSort.
+-q means enable quickSort.
+-M means enable mergeSort.
+-p n means print the first n elements of the array. The default value is 100. • -r s means set the random seed to s. The default is 8222022.
+-n c means set the array size to c. The default value is 100.
